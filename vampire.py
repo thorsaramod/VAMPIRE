@@ -132,7 +132,7 @@ async def attack(update: Update, context: CallbackContext):
 
     asyncio.create_task(run_attack(chat_id, ip, port, duration, context))
 
-async def GOKU_VAMPIRE: Update, context: CallbackContext):
+async def VAMPIREXCHEATS: Update, context: CallbackContext):
     user_id = update.effective_user.id 
     message = f"YOUR USER ID: `{user_id}`" 
     await context.bot.send_message(chat_id=update.effective_chat.id, text=message, parse_mode='Markdown')
@@ -290,7 +290,7 @@ def main():
     application.add_handler(CommandHandler("attack", attack))
     application.add_handler(CommandHandler("gen", generate_redeem_code))
     application.add_handler(CommandHandler("redeem", redeem_code))
-    application.add_handler(CommandHandler("get_id", GOKU_VAMPIRE))
+    application.add_handler(CommandHandler("get_id", VAMPIREXCHEATS)
     application.add_handler(CommandHandler("users", list_users))
     application.add_handler(CommandHandler("help", help_command))
     
