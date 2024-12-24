@@ -132,7 +132,7 @@ async def attack(update: Update, context: CallbackContext):
 
     asyncio.create_task(run_attack(chat_id, ip, port, duration, context))
 
-async def VAMPIREXCHEATS(update: Update, context: CallbackContext):
+async def GOKU_VAMPIRE: Update, context: CallbackContext):
     user_id = update.effective_user.id 
     message = f"YOUR USER ID: `{user_id}`" 
     await context.bot.send_message(chat_id=update.effective_chat.id, text=message, parse_mode='Markdown')
